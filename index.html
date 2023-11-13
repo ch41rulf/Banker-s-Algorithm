@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banker's Algorithm</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Banker Algoritma</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -40,18 +42,21 @@
     </style>
 </head>
 <body>
-    <h1>Banker's Algorithm</h1>
+    <h1>Banker Algoritma</h1>
+    <p>Untuk mencoba program Banker Algoritma ini, minta tolong untuk membaca juga instruksi yang ada di link berikut </p>
+    <a href= "url" >https://tinyurl.com/ch41rulf</a>
+    <p></p>
 
-    <label for="resources">Number of resources:</label>
+    <label for="resources">Input jumlah resources:</label>
     <input type="number" id="resources">
 
-    <label for="processes">Number of processes:</label>
+    <label for="processes">Input jumlah proces:</label>
     <input type="number" id="processes">
 
-    <label for="maxResources">Maximum resources:</label>
+    <label for="maxResources">Input Jumlah Maksimal resources:</label>
     <input type="text" id="maxResources">
 
-    <button onclick="createInputFields()">Create Input Fields</button>
+    <button onclick="createInputFields()">Buat Input Alokasi</button>
     <button onclick="runBankersAlgorithm()">Run Banker's Algorithm</button>
 
     <div id="inputFields"></div>
