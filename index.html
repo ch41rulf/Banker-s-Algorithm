@@ -44,7 +44,7 @@
 <body>
     <h1>Banker Algoritma</h1>
     <p>Untuk mencoba program Banker Algoritma ini, minta tolong untuk membaca juga instruksi yang ada di link berikut </p>
-    <a href= "url" >https://tinyurl.com/ch41rulf</a>
+    <p><a href="https://tinyurl.com/ch41rulf">Detail bisa click</a></p>
     <p></p>
 
     <label for="resources">Input jumlah resources:</label>
@@ -70,7 +70,7 @@
 
             for (var i = 1; i <= processes; i++) {
                 var labelAllocated = document.createElement("label");
-                labelAllocated.textContent = "Allocated resources for Process " + i + ": ";
+                labelAllocated.textContent = "Input alokasi untuk resources Process " + i + ": ";
                 var inputAllocated = document.createElement("input");
                 inputAllocated.type = "text";
                 inputAllocated.id = "allocated" + i;
@@ -78,7 +78,7 @@
                 inputFields.appendChild(inputAllocated);
 
                 var labelMaxNeed = document.createElement("label");
-                labelMaxNeed.textContent = "Max need for Process " + i + ": ";
+                labelMaxNeed.textContent = "Maksimal Process " + i + ": ";
                 var inputMaxNeed = document.createElement("input");
                 inputMaxNeed.type = "text";
                 inputMaxNeed.id = "maxNeed" + i;
