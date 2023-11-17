@@ -11,4 +11,8 @@ Terdiri dari tiga variabel yang harus diinput di awal inisiasi
 
     Untuk Multiple resource, harus input di resource nilai >= 2, lalu silahkan input dalam satu kolom input variabel untuk parameter maksimal resource dengan ditambahkan spasi seperti vector contoh "1 2 3 4 5". Pastikan gunakan spasi kalau tidak gunakan spasi maka dianggap satu angka.
 
+    Untuk menjalankan algoritma pilih tombol run yang ada di sebelah input alokasi, karena keterbatasan masih akan diperbaiki untuk tombol lain
+
+
+
 
